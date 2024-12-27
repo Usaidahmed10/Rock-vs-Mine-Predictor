@@ -30,7 +30,7 @@ The dataset contains sonar signal readings, with 60 features representing the si
   - **R:** Rock  
   - **M:** Mine  
 
-The dataset is preprocessed to separate features and labels, and then split into training and test datasets.  
+The dataset is preprocessed to separate features and labels. Additionally, the features are scaled to standardize the range of values, ensuring uniformity across the data. After scaling, the dataset is split into training and test datasets for model evaluation.  
 
 ---
 
